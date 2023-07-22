@@ -106,5 +106,5 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-"include": ["./template/src/irisDemo/register_pipelines.ts"]
+"include": ["./IrisProject/src/irisDemo/register_pipelines.ts"]
 }
