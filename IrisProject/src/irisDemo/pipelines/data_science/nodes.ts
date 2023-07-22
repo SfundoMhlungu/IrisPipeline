@@ -48,9 +48,7 @@ export async function AUC(y_pred: Promise<Tensor1D>, y_test: Scikit1D){
      console.log("\t\tPrecision :" ,metrics.precisionScore(y_test, predection))
      console.log("\t\tConfusion Matrix", metrics.confusionMatrix(y_test, predection))
 
-     console.log("           ")
-
-     console.log("\t\trocAUC score", metrics.rocAucScore(y_test, predection))
+   
     
 }
 

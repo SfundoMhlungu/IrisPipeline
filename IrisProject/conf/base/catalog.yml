@@ -6,19 +6,5 @@ iris_dataset:
   type: fs.CSV
   filepath: /01_raw/iris.csv
 
-iris:
-  type: danfo.localCSV
-  filepath: /01_raw/iris.csv
-
-# preprocessed iris data(X)
-data:
-    type: fs.CSV
-    filepath: /02_intermediate/data.csv
-
-#preprocessed iris response(Y)
-response:
-    type: fs.CSV
-    filepath: /02_intermediate/response.csv
-
 
 

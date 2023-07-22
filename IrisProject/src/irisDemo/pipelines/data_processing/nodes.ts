@@ -7,9 +7,9 @@
 
 
 const map:Record<string, any> = {
-    '"Setosa"': 1,
-    '"Versicolor"': 2,
-    '"Virginica"': 3,
+    '"Setosa"\r': 1,
+    '"Versicolor"\r': 2,
+    '"Virginica"\r': 3,
 
 }
 
