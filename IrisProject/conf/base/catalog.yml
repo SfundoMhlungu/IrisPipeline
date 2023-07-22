@@ -1,0 +1,24 @@
+# Here you can define all your data sets by using simple YAML syntax.
+# there's a bug with the yaml parser in kedrojs, YAML's cannot be empty(fix coming soon!)
+#
+
+iris_dataset:
+  type: fs.CSV
+  filepath: /01_raw/iris.csv
+
+iris:
+  type: danfo.localCSV
+  filepath: /01_raw/iris.csv
+
+# preprocessed iris data(X)
+data:
+    type: fs.CSV
+    filepath: /02_intermediate/data.csv
+
+#preprocessed iris response(Y)
+response:
+    type: fs.CSV
+    filepath: /02_intermediate/response.csv
+
+
+

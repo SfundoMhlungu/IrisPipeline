@@ -1,0 +1,5 @@
+# there's a bug with the yaml parser in kedro, YAML's cannot be empty(fix coming soon!)
+
+model_options:
+    test_size: 0.3
+    seed: 0.2

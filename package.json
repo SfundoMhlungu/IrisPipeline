@@ -1,0 +1,23 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/register_pipelines.js",
+  "scripts": {
+    "build": "tsc -p . && node ./lib/register_pipelines.js",
+    "dev": "nodemon ./irisProject/src/irisDemo/register_pipelines.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.9.0",
+    "kedrojs": "^1.0.4",
+    "scikitjs": "^1.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}

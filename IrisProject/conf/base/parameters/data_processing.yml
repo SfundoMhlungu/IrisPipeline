@@ -1,0 +1,4 @@
+# there's a bug with the yaml parser in kedro, YAML's cannot be empty(fix coming soon!)
+dummy:
+    a: "dummy var"
+
